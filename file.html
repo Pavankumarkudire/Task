@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Container">
+        <div class="image" id="imageContainer">
+            <div class="photo-container" id="photoContainer">
+                <img id="uploadedPhoto" class="photo" alt="Uploaded Photo">
+            </div>
+        </div>
+        <div class="Content">
+            <button id="uploadButton">Upload Photo</button>
+            <input type="file" id="photoUpload" accept="image/*">
+            <div>
+                <button id="Image_position" class="Image_position">Center Image</button>
+            </div>
+            <div class="btms">
+                <button class="colorButton">red</button>
+                <button class="colorButton">yellow</button>
+                <button class="colorButton">green</button>
+            </div>
+            <div class="btml">
+                <select id="colorSelect">
+                    <option value="blue">Blue</option>
+                    <option value="red">Red</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="green">Green</option>
+                </select>
+            </div>
+            <div class="Size_content">
+                <input type="text" placeholder="Enter the fontsize" id="Font_context">
+                <button id="submit">submit</button>
+            </div>
+        </div>
+    </div>
+    <div id="photoName">No photo uploaded</div>
+    <script src="file.js"></script>
+</body>
+
+</html>
